@@ -1,0 +1,268 @@
+body {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    font: 15px verdana;
+    position: relative;
+    min-height: 100vh;
+}
+ 
+/* Header */
+
+header {
+    background: #fff;
+    cursor: pointer;
+    color: black;
+    padding-top: 10px;
+    min-height: 65px;
+    border-bottom: #e8491d 3px solid
+}
+ 
+header a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+}
+header li{
+    float: left;
+    display: flex;
+    padding: 0 20px 0 20px;
+   
+}
+header #branding {
+    float: left;
+    margin: 10px 15px 10px 0;
+}
+header img {
+    margin: 0;
+    justify-items: auto;
+    margin-left: 40px;
+    display: inline;
+    float: left;
+
+}
+header nav {
+    float: right;
+    margin-top: 11px;
+}
+header li :hover  {
+    color: #fff;
+    transition: 0.4s;
+    background-color: #e8491d;
+}
+header .button_12 {
+    background:  #e8491d;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    padding: 0px;
+    align-items: center;
+    font-weight: bold;
+    width: 150px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+header .button_12:hover{
+    color: #fff;
+    transition: 0.4s;
+    background-color: #912e13;
+}
+header .button_123 {
+    color: #fff;
+}
+
+
+
+
+/* Contact Page */
+#contact {
+    background-color: #59595d;
+    margin-top: 40px;
+}
+.us_1, .us_2 {
+    padding-top: 40px;
+    padding-left: 40px;
+    color: white;
+}
+
+.us_2 {
+    padding-bottom: 40px;
+}
+#example {
+   padding: 40px;
+   margin-top: 50px;
+}
+
+
+/* General */
+.public {
+    color: #e8491d;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+/* Index Page Showcase */
+#showcase {
+    background: url(../IMG/african.webp) no-repeat;
+    height: 500px;
+    background-position: 0px 10px;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    display: block;
+}
+.public_1 {
+    color: #e8491d;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.showcase_2 {
+    font-size: 25px;
+    float: right;
+    width: 50%;
+    text-align: right;
+    padding-top: 50px;
+    margin-right: 80px
+}
+.paperwork {
+   font-size: 20px;
+   font-weight: bold;
+}
+
+/* Buttons */
+.button_1 {
+    background:  #e8491d;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    width: 150px;
+    color: #fff;
+}
+.button_1:hover {
+    background-color: #912e13;
+    transition: 0.4s;
+}
+#button_23 {
+    background:  #e8491d;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px;
+    font-weight: bold;
+    width: 150px;
+    color: #fff;
+}
+#button_23:hover {
+    background-color: #912e13;
+    transition: 0.4s;
+}
+
+/* Loan Page */
+#showcase_3 {
+    background: url(../IMG/min.jpg) no-repeat;
+    background-position: 0px 10px;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    margin-top: 25px;
+    padding-top: 60px;
+    display: block;
+    height: 500px;
+}
+
+.instant {
+    color: #fff;
+    font-size: 40px;
+    text-align:left;
+    padding-top: 10%;
+   padding-left: 8%;
+}
+
+/* Offer */
+.header_3 {
+    background-color: #59595d;
+    height: 130px;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px ;
+    font-weight: bold;
+    color: #fff;
+    padding-top:  30px;
+    border-bottom-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+
+.offer_2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    float: right;
+    text-align: center;
+    width: 25%;
+    display: block;
+    margin-right: 35%;
+    margin-left: 70%;
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    box-shadow: #59595d 0px 0px 15px 0 ;
+}
+.offer_2 p {
+    margin: 0;
+    padding: 0;   
+
+}
+
+
+
+/* Offer loan Page */
+.header_3 .public{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.p_2 {
+    font-size: 15px;
+    text-align: center;
+    margin: 30px;
+    width: 90%;
+    padding: -60px;
+}
+
+/*Regulate */
+#regulate p{
+    color: #e8491d ;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+   margin-left: 45%;
+    padding: 0;
+    display: block;
+    float: left;
+    top: 50%;
+    left: 50%;
+    margin-bottom: 0;
+}
+
+.regula img{
+    float: left;
+    margin-left: 37%;
+    margin-top: -35px;
+    width: 25%;
+}
+
+/* Footer */
+footer {
+    color: black;
+    text-align: center;
+    margin: 30px;
+ margin-top: 20px;
+   min-height: 40px;
+
+    
+}
